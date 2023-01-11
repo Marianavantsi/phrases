@@ -1,6 +1,6 @@
 
 body {
-    margin: 25vh;
+
     animation:  changeBg 5s infinite alternate linear;
 }
 
@@ -25,10 +25,15 @@ body {
 .container {
     width: 165px;
     margin: 0 auto;
+    text-align: center;
 }
 
-.container {
-    text-align: center;
+@media min-midth {
+    .container {
+        width: 165px;
+        margin: 100px 40px;
+        text-align: center;
+    }
 }
 
 #btn-solution, #btn-resolution {
@@ -36,8 +41,3 @@ body {
     width: 180px;
 }
 
-@media (min-width: 320px) {
-    .container {
-        text-align: center;
-    }
-}
