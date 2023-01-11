@@ -1,0 +1,38 @@
+
+body {
+    margin: 25vh;
+    animation:  changeBg 5s infinite alternate linear;
+}
+
+@keyframes changeBg {
+0% {
+    background: #ee6055;
+}
+ 25% {
+    background-color: #60d394 ;
+ }
+ 50% {
+    background-color:#aaf683 ;
+ }
+ 75% {
+    background-color: #ffd97d ;
+ }
+ 75% {
+    background-color: #ff9b85;
+ }
+
+}
+.container {
+    width: 165px;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+}
+
+#btn-solution, #btn-resolution {
+    height: 40px;
+    width: 180px;
+}
+
